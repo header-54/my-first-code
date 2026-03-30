@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login & Signup</title>
+<link rel="stylesheet" href="style.css">
+<script src="logic.js"></script>
+</head>
+
+<body>
+
+<div class="mainbox">
+    <h1>Login Form</h1>
+
+    <div class="button-box">
+
+        <button onclick="slogin()" id="log1">Login</button>
+        <button onclick="ssignup()" id="sig1">Signup</button>
+
+    </div>
+
+    <div id="login">
+
+        <input type="text" id="loginuser" placeholder="username">
+        <input type="password" id="loginpass" placeholder="password">
+        <button onclick="login()">Login</button>
+
+    </div>
+
+    <div id="signup">
+
+        <input type="text" id="signupuser" placeholder="username">
+        <input type="email" id="signupemail" placeholder="Email">
+        <input type="password" id="signuppass" placeholder="password">
+        <input type="password" id="signuppassconfirm" placeholder="confirm password">
+        <button onclick="signup()">Signup</button>
+
+    </div>
+
+</div>
+
+</body>
+</html>
